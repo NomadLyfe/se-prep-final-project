@@ -1,3 +1,54 @@
 body {
-    background: blue;
+    background: white;
+}
+#main-header {
+    background: pink;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    height: 140px;
+    font-family: sans-serif;
+    font-size: 15pt;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+#main {
+    top: 0;
+    font-family: sans-serif;
+}
+#left-panel{
+    background: white;
+    position: fixed;
+    top: 140px;
+    width: 200px;
+    line-height: 5;
+    font-size: 15pt;
+    left: 0px;
+    z-index: 1;
+    border-right: 1px solid pink;
+    text-align: center;
+    padding-right: 40px;
+}
+#right-side {
+    position: relative;
+    top: 140px;
+    left: 255px;
+    width: 68vw;
+    line-height: 1.5;
+    font-size: 12pt;
+    height: 100%
+}
+#sticky-menu ul {
+    list-style-type: none;
+}
+#page-bottom {
+    position: relative;
+    bottom: -120px;
+    border-top: 1px solid pink;
+    width: 100%;
+    left: 233px;
+    height: 140px;
+    padding-left: 25px;
+    padding-top: 5px;
 }
