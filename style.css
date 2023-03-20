@@ -7,15 +7,16 @@ body {
     width: 100%;
     text-align: center;
     height: 140px;
-    font-family: sans-serif;
+    font-family: system-ui;
     font-size: 15pt;
     top: 0px;
     left: 0px;
     z-index: 2;
+    border-radius: 10px;
 }
 #main {
     top: 0;
-    font-family: sans-serif;
+    font-family: system-ui;
 }
 #left-panel{
     background: white;
@@ -34,10 +35,12 @@ body {
     position: relative;
     top: 140px;
     left: 255px;
-    width: 68vw;
+    width: 65vw;
+    padding-bottom: 30px;
     line-height: 1.5;
     font-size: 12pt;
     height: 100%
+
 }
 #sticky-menu ul {
     list-style-type: none;
@@ -51,4 +54,47 @@ body {
     height: 140px;
     padding-left: 25px;
     padding-top: 5px;
+}
+#search-form {
+    position: fixed;
+    top: 85px;
+    left: 10px;
+    background-color: rgb(219, 166, 175);
+    float: right;
+    width: 220px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+#search-bar {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+}
+svg {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+#sushi {
+    position: fixed;
+    left: 60px;
+    top: -15px;
+    width: 125px;
+}
+.highlighted {
+    background: yellow;
+}
+.hidden {
+    display: none;
 }

@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css"/>
         <title>Sushi</title>
     </head>
     <body>
-        <script src="script.js"></script>
         <div id="whole-page">
             <div id='main-header' class="website-header">
-                    <h1>A Site Dedicated to Sushi</h1>
+                <h1>Sushi</h1>
+                <img id='sushi' src="./pictures/sushi.png">
+                <form id="search-form" role="search">
+                    <input type="search" id="search-bar"  placeholder="Search..." onkeyup="search()">
+                </form>
             </div>
             <div id="main">
                 <div id="left-panel">
@@ -16,33 +19,39 @@
                         <div id="sticky-menu">
                             <ul>
                                 <li>
-                                    <a href="./index.html"><img src='./pictures/japanese house.jpg' style="width: 100px"/></a>
+                                    <img onclick="diffPage(event)" src='./pictures/japanese house.jpg' alt="home-page" style="width: 100px; cursor: pointer;"/>
                                 </li>                        
                                 <li>
-                                    <a href="./index2.html"><img src='./pictures/japanese scroll.jpg' style="width: 100px"/></a>
+                                    <img onclick="diffPage(event)" src='./pictures/japanese scroll.jpg' alt="history" style="width: 100px; cursor: pointer;"/>
                                 </li>
                                 <li>
-                                    <a href="./index3.html"><img src='./pictures/sushi types.jpg' style="width: 80px"/></a>
+                                    <img onclick="diffPage(event)" src='./pictures/sushi types.jpg' alt="sushi-types" style="width: 80px; cursor: pointer;"/>
                                 </li>
                                 <li>
-                                    <a href="./index4.html"><img src='./pictures/western sushi.jpg' style="height: 71px"/></a>
+                                    <img onclick="diffPage(event)" src='./pictures/western sushi.jpg' alt="western-sushi" style="height: 71px; cursor: pointer;"/>
                                 </li>
                                 <li>
-                                    <a href="./index5.html"><img src='./pictures/sushi ingredients.jpg' style="width: 100px"/></a>
+                                    <img onclick="diffPage(event)" src='./pictures/sushi ingredients.jpg' alt="sushi-ingredients" style="width: 100px; cursor: pointer;"/>
                                 </li>
                                 <li>
-                                    <a href="./index6.html"><img src='./pictures/health risks.jpg' style="width: 120px"/></a>
+                                    <img onclick="diffPage(event)" src='./pictures/health risks.jpg' alt="health-risks" style="width: 120px; cursor: pointer;"/>
                                 </li>
                             </ul>
                         </div>
                     </nav>
                 </div>
                 <div id="right-side">
-                    <div>
-                        <p>Sushi (すし, 寿司, 鮨, 鮓, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanied by a variety of ingredients (ねた, neta), such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari (しゃり), or sumeshi (酢飯).</p>
-                        <p>The inventor of modern sushi is believed to be Hanaya Yohei, who invented nigiri-zushi, a type of sushi most known today, in which seafood is placed on hand-pressed vinegared rice, around 1824 in the Edo period (1603–1867). It was the fast food of the chōnin class in the Edo period.</p>
-                        <p>Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat. Many types of sushi are vegetarian. It is often served with pickled ginger (gari), wasabi, and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.</p>
-                        <p>Sushi is sometimes confused with sashimi, a similar dish in Japanese cuisine that consists of thinly sliced raw fish or occasionally meat.</p>
+                    <div id='home-page' class="content-wrapper not-hidden">
+                    </div>
+                    <div id='history' class="content-wrapper hidden">
+                    </div>
+                    <div id='sushi-types' class="content-wrapper hidden">
+                    </div>
+                    <div id='western-sushi' class="content-wrapper hidden">
+                    </div>
+                    <div id='sushi-ingredients' class="content-wrapper hidden">
+                    </div>
+                    <div id='health-risks' class="content-wrapper hidden">
                     </div>
                 </div>
             </div>
@@ -50,5 +59,6 @@
                 <div><p>Footer</p></div>
             </div>
         </div>
+        <script src="index.js"></script>
     </body>
 </html>
