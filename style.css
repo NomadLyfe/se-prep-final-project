@@ -18,41 +18,40 @@ body {
     top: 0;
     font-family: system-ui;
 }
-#left-panel{
+#left-panel {
     background: white;
     position: fixed;
     top: 140px;
     width: 200px;
-    line-height: 5;
+    line-height: 4.4;
     font-size: 15pt;
-    left: 0px;
     z-index: 2;
     border-right: 1px solid pink;
     text-align: center;
     padding-right: 40px;
-    height: 100%;
+    bottom: 0px;
+    margin-left: -9px;
+    overflow-y: scroll;
 }
 #right-side {
     position: relative;
     top: 140px;
     left: 255px;
-    width: 65vw;
+    width: calc(80vw - 200px);
     padding-bottom: 30px;
     line-height: 1.5;
     font-size: 12pt;
     height: 100%
-    z-index: 1;
-
 }
-#sticky-menu ul {
+#left-panel ul {
     list-style-type: none;
 }
 #page-bottom {
     position: relative;
-    bottom: -120px;
     border-top: 1px solid pink;
+    top: 115px;
     width: 100%;
-    left: 233px;
+    left: 230px;
     height: 140px;
     padding-left: 25px;
     padding-top: 5px;
@@ -62,7 +61,6 @@ body {
     top: 90px;
     left: 10px;
     background-color: rgb(219, 166, 175);
-    float: right;
     width: 220px;
     height: 40px;
     border-radius: 5px;
