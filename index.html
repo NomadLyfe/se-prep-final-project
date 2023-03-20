@@ -7,10 +7,15 @@
     <body>
         <div id="whole-page">
             <div id='main-header' class="website-header">
-                <h1>Sushi</h1>
+                <h1 id="home-page-header" class="not-hidden-header">Sushi</h1>
+                <h1 id="history-header" class="hidden-header">History of Sushi</h1>
+                <h1 id="sushi-types-header" class="hidden-header">Types of Sushi</h1>
+                <h1 id="western-sushi-header" class="hidden-header">Western Sushi</h1>
+                <h1 id="sushi-ingredients-header" class="hidden-header">Sushi Ingredients</h1>
+                <h1 id="health-risks-header" class="hidden-header">Health Risks of Sushi</h1>
                 <img id='sushi' src="./pictures/sushi.png">
                 <form id="search-form" role="search">
-                    <input type="search" id="search-bar"  placeholder="Search..." onkeyup="search()">
+                    <input type="text" id="search-bar"  placeholder="Search..." onkeyup="search()">
                 </form>
             </div>
             <div id="main">
@@ -19,22 +24,22 @@
                         <div id="sticky-menu">
                             <ul>
                                 <li>
-                                    <img onclick="diffPage(event)" src='./pictures/japanese house.jpg' alt="home-page" style="width: 100px; cursor: pointer;"/>
+                                    <img onclick="diffPage(event), diffHeader(event)" src='./pictures/japanese house.jpg' alt="home-page" style="width: 100px; cursor: pointer;"/>
                                 </li>                        
                                 <li>
-                                    <img onclick="diffPage(event)" src='./pictures/japanese scroll.jpg' alt="history" style="width: 100px; cursor: pointer;"/>
+                                    <img onclick="diffPage(event), diffHeader(event)" src='./pictures/japanese scroll.jpg' alt="history" style="width: 100px; cursor: pointer;"/>
                                 </li>
                                 <li>
-                                    <img onclick="diffPage(event)" src='./pictures/sushi types.jpg' alt="sushi-types" style="width: 80px; cursor: pointer;"/>
+                                    <img onclick="diffPage(event), diffHeader(event)" src='./pictures/sushi types.jpg' alt="sushi-types" style="width: 80px; cursor: pointer;"/>
                                 </li>
                                 <li>
-                                    <img onclick="diffPage(event)" src='./pictures/western sushi.jpg' alt="western-sushi" style="height: 71px; cursor: pointer;"/>
+                                    <img onclick="diffPage(event), diffHeader(event)" src='./pictures/western sushi.jpg' alt="western-sushi" style="height: 71px; cursor: pointer;"/>
                                 </li>
                                 <li>
-                                    <img onclick="diffPage(event)" src='./pictures/sushi ingredients.jpg' alt="sushi-ingredients" style="width: 100px; cursor: pointer;"/>
+                                    <img onclick="diffPage(event), diffHeader(event)" src='./pictures/sushi ingredients.jpg' alt="sushi-ingredients" style="width: 100px; cursor: pointer;"/>
                                 </li>
                                 <li>
-                                    <img onclick="diffPage(event)" src='./pictures/health risks.jpg' alt="health-risks" style="width: 120px; cursor: pointer;"/>
+                                    <img onclick="diffPage(event), diffHeader(event)" src='./pictures/health risks.jpg' alt="health-risks" style="width: 120px; cursor: pointer;"/>
                                 </li>
                             </ul>
                         </div>

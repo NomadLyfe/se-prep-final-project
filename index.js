@@ -38,23 +38,23 @@ for (let i = 0; i < list2.length; i++) {
 
 // types
 let p9 = "The common ingredient in all types of sushi is vinegared sushi rice. Fillings, toppings, condiments, and preparation vary widely. Due to rendaku consonant mutation, sushi is pronounced with zu instead of su when a prefix is attached, as in nigirizushi."
-let h1 = "<h2>Chirashizushi</h2>"
+let h1 = "<h2>Chirashi</h2>"
 let p10 = "Chirashizushi serves the rice in a bowl and tops it with a variety of raw fish and vegetable garnishes. It is popular because it is filling, fast, and easy to make. It is eaten annually on Hinamatsuri in March and Kodomonohi in May."
-let h2 = "<h2>Inarizushi</h2>"
+let h2 = "<h2>Inari</h2>"
 let p11 = "Inarizush is a pouch of fried tofu typically filled with sushi rice alone. According to Shinto lore, inarizushi is named after the god Inari. Foxes, messengers of Inari, are believed to have a fondness for fried tofu, and an inarizushi roll has pointed corners that resemble fox ears."
 let p12 = "Regional variations include pouches made of a thin omelette instead of tofu. It should not be confused with inari maki, a roll filled with flavored fried tofu."
 let p13 = "Cone sushi is a variant of inarizushi originating in Hawaii that may include green beans, carrots, or gobo along with rice, wrapped in a triangular abura-age piece. It is often sold in okazu-ya (Japanese delis) and as a component of bento boxes."
-let h3 = "<h2>Makizushi</h2>"
+let h3 = "<h2>Maki</h2>"
 let p14 = "Makizushi, norimaki or makimono is a cylindrical piece formed with the help of a mat known as a makisu. Makizushi is generally wrapped in nori (seaweed) but is occasionally wrapped in a thin omelette, soy paper, cucumber, or shiso (perilla) leaves. Makizushi is often cut into six or eight pieces, constituting a single roll order. Short-grain white rice is usually used, although short-grain brown rice, like olive oil on nori, is now becoming more widespread among the health-conscious. Rarely, sweet rice is mixed in makizushi rice."
 let p15 = "Nowadays, the rice in makizushi can be many kinds of black rice, boiled rice, and cereals. Besides the common ingredients listed above, some varieties may include cheese, spicy cooked squid, yakiniku, kamaboko, lunch meat, sausage, bacon or spicy tuna. The nori may be brushed with sesame oil or sprinkled with sesame seeds. In a variation, sliced pieces of makizushi may be lightly fried with egg coating."
-let h4 = "<h2>Modern narezushi</h2>"
+let h4 = "<h2>Modern-Nare</h2>"
 let p16 = "Narezushi is a traditional form of fermented sushi. Skinned and gutted fish are stuffed with salt, placed in a wooden barrel, doused with salt again, then weighed down with a heavy tsukemonoishi (pickling stone). As days pass, water seeps out and is removed. After six months, this sushi can be eaten, remaining edible for another six months or more."
 let p17 = "The most famous variety of narezushi are the ones offered as a specialty dish of Shiga Prefecture, particularly the funa-zushi made from fish of the crucian carp genus, the authentic version of which calls for the use of nigorobuna, a particular locally differentiated variety of wild goldfish endemic to Lake Biwa."
-let h5 = "<h2>Nigirizushi</h2>"
+let h5 = "<h2>Nigiri</h2>"
 let p18 = "Nigirizushi consists of an oblong mound of sushi rice that a chef typically presses between the palms of the hands to form an oval-shaped ball and a topping (the neta) draped over the ball. It is usually served with a bit of wasabi; toppings are typically fish such as salmon, tuna, or other seafood. Certain toppings are typically bound to the rice with a thin strip of nori, most commonly octopus (tako), freshwater eel (unagi), sea eel (anago), squid (ika), and sweet egg (tamago)."
 let p19 = "Gunkanmaki [ja] is a special type of nigirizushi: an oval, hand-formed clump of sushi rice that has a strip of nori wrapped around its perimeter to form a vessel that is filled with some soft, loose or fine-chopped ingredient that requires the confinement of nori such as roe, nattō, oysters, uni (sea urchin roe), sweetcorn with mayonnaise, scallops, and quail eggs. Gunkan-maki was invented at the Ginza Kyubey restaurant in 1941; its invention significantly expanded the repertoire of soft toppings used in sushi."
 let p20 = "Temarizushi is a style of sushi made by pressing rice and fish into a ball-shaped form by hand using a plastic wrap."
-let h6 = "<h2>Oshizushi</h2>"
+let h6 = "<h2>Oshi</h2>"
 let p21 = "Oshizushi, also known as hako-zushi, is a pressed sushi from the Kansai region, a favorite and specialty of Osaka. A block-shaped piece is formed using a wooden mold, called an oshibako. The chef lines the bottom of the oshibako with the toppings, covers them with sushi rice, and then presses the mold's lid to create a compact, rectilinear block. The block is removed from the mold and then cut into bite-sized pieces. Particularly famous is battera or saba zushi. In oshizushi, all the ingredients are either cooked or cured, and raw fish is never used."
 let p22 = "Oshizushi wrapped in persimmon leaves, a specialty of Nara, is known as kakinohazushi."
 let list3 = [p9,h1,p10,h2,p11,p12,p13,h3,p14,p15,h4,p16,p17,h5,p18,p19,p20,h6,p21,p22];
@@ -79,13 +79,13 @@ let p25 = "Uramaki is a medium-sized cylindrical style of sushi with two or more
 let p26 = "Examples of variations include the rainbow roll (an inside-out topped with thinly sliced maguro, hamachi, ebi, sake and avocado) and the caterpillar roll (an inside-out topped with thinly sliced avocado). Also commonly found is the \"rock and roll\" (an inside-out roll with barbecued freshwater eel and avocado with toasted sesame seeds on the outside)."
 let p27 = "In Japan, uramaki is an uncommon type of makimono; because sushi is traditionally eaten by hand in Japan, the outer layer of rice can be quite difficult to handle with fingers."
 let p28 = "In Brazil, uramaki and other sushi pieces include cream cheese in their recipe. Uncommon for the traditional recipe, this is the most common ingredient used in preparing sushi in the country. Temaki also often contains a large amount of cream cheese and is extremely popular in restaurants."
-let h8 = "<h2>American-style makizushi</h2>"
+let h8 = "<h2>American-style-Maki</h2>"
 let p29 = "Multiple-filling rolls inspired by futomaki are a more popular type of sushi within the United States and come in variations that take their names from their places of origin. Other rolls may include a variety of ingredients, including chopped scallops, spicy tuna, beef or chicken teriyaki roll, okra, and assorted vegetables such as cucumber and avocado, and the tempura roll, where shrimp tempura is inside the roll or the entire roll is battered and fried tempura-style. In the Southern United States, many sushi restaurants prepare rolls using crawfish. Sometimes, rolls are made with brown rice or black rice, known as forbidden rice, which appear in Japanese cuisine as well."
 let p30 = "Per Food and Drug Administration regulations, raw fish served in the United States must be frozen before serving to kill parasites."
 let p31 = "Since rolls are often made to order, it is not unusual for the customer to specify the exact ingredients desired (e.g., salmon roll, cucumber roll, avocado roll, tuna roll, shrimp or tuna tempura roll, etc.)."
 let h9 = "<h2>Canada</h2>"
 let p32 = "Many of the styles seen in the United States are also seen in Canada and their own. Doshi (a portmanteau of sushi and donut) is a donut-shaped rice ball on a deep-fried crab or imitation crab cake topped with sushi ingredients.[67] Maki Poutine is similar to makizushi in style except it is topped with cheese curds and gravy and contains duck confit, more cheese curds, and sweet potato tempura.[68] Sushi cake is made of crab meat, avocado, shiitake mushroom, salmon, spicy tuna, and tobiko and served on sushi rice then torched with spicy mayo, BBQ sauce, balsamic reduction, and dotted with caper and garlic chips. Sushi pizza is deep fried rice or crab/imitation crab cake topped with mayo and various sushi ingredients."
-let h10 = "<h2>Mexico and the Western United States</h2>"
+let h10 = "<h2>Mexico/Western-U.S.</h2>"
 let p33 = "Sinaloan sushi originated in Sinaloa, Mexico and has been available in the Western United States since 2013."
 let list4 = [p23,p24,h7,p25,p26,p27,p28,h8,p29,p30,p31,h9,p32,h10,p33];
 let westernPage = document.getElementsByClassName('content-wrapper')[3];
@@ -184,4 +184,14 @@ function diffPage(event) {
     currentPage.classList.toggle('not-hidden');
     chosenPage.classList.toggle('not-hidden');
     currentPage.classList.toggle('hidden');
+}
+
+function diffHeader(event) {
+    let chooseHeader = event.target.getAttribute('alt');
+    let chosenHeader = document.getElementById(chooseHeader + "-header");
+    let currentHeader = document.getElementsByClassName('not-hidden-header')[0];
+    chosenHeader.classList.toggle('hidden-header');
+    currentHeader.classList.toggle('not-hidden-header');
+    chosenHeader.classList.toggle('not-hidden-header');
+    currentHeader.classList.toggle('hidden-header');
 }
