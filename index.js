@@ -185,6 +185,7 @@ function diffPage(event) {
     chosenPage.classList.toggle('not-hidden');
     currentPage.classList.toggle('hidden');
 }
+document.getElementById("navigation").addEventListener("click", diffPage);
 
 function diffHeader(event) {
     let chooseHeader = event.target.getAttribute('alt');
@@ -195,3 +196,4 @@ function diffHeader(event) {
     chosenHeader.classList.toggle('not-hidden-header');
     currentHeader.classList.toggle('hidden-header');
 }
+document.getElementById("navigation").addEventListener("click", diffHeader);
